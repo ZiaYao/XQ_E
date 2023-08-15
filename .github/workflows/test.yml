@@ -21,7 +21,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleDebug
       - name: Upload to Release Action
-        uses: actions/aws@v2.0.1
+        uses: Shopify/upload-to-release@v1.0.1
         with:
           name: Xqe-Sesame-${{ github.event.release.tag_name }}.apk
           path: app/build/outputs/apk/debug/app-debug.apk
