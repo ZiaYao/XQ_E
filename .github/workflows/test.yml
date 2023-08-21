@@ -24,6 +24,6 @@ jobs:
         uses: Shopify/upload-to-release@v1.0.1
         with:
           name: Xqe-Sesame-${{ github.event.release.tag_name }}.apk
-          path: app-debug.apk
+          path: app/build/outputs/apk/app-debug.apk
           repo-token: ${{ github.token }}
           content-type: application/zip
