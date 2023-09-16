@@ -17,4 +17,4 @@
 
 ![Demo](https://raw.githubusercontent.com/buddingworld/XQuickEnergy/master/Screenshot_2023-09-05-22-44-22-750.jpg "Demo")
 
-##  其余部分介绍全部如原版，此处不累赘。
+##  其余部分介绍全部如原版，此处不累赘
